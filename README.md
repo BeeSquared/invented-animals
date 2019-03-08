@@ -19,6 +19,7 @@ Saved as shakespeare.pt
 ```
 
 Above, the model is saved a shakespeare.pt
+
 In my set, the training data is called all_files.txt and the saved model is all_files.pt
 
 After training the model will be saved as `[filename].pt` &mdash; now run `generate.py` with that filename to generate some new text:
@@ -50,6 +51,7 @@ Options:
 ### Generation options
 
 In my terminal, in the appropriate enviornment, I use the code line: 
+
 python generate.py all_files.pt —prime_str “solid CATIA STL” —predict_len “150000” > newanimal.txt
 
 This generates the text form of an STL file, based on the model I trained. It starts from "solid CATIA STL," the opening line in every readable STL file, and predicts the framework and vertices of the file for 150,000 characters--this is the average length of the training STL animal files.

@@ -1,3 +1,10 @@
+# Do neural networks dream of recursive sheep?
+
+## A Lovecraftian sculpture series
+
+Use all_files.txt as the training dataset. It contains approximately 80 STL files, converted into text form and compiled together into the one file.
+
+
 # Practical PyTorch: Generating Shakespeare with a Character-Level RNN
 
 ## Dataset
